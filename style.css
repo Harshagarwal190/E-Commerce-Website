@@ -1,0 +1,159 @@
+/* Below (*) is used as universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+/* dot operator is denoted by class*/
+.menu{
+    width: 650px;
+    float: left;
+    height: 60px;
+}
+
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    display: inline-block;
+    margin-left: 62px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    transition:0.6s ease; /* for smotthly workig */
+}
+/*here hover is an type of an effect which will show when your mouse is go on particular 
+statement will you want to hover. here bg become white and the statement become black*/
+ul li a:hover{
+    background-color:#ff7200;
+    color: #000;
+}
+/* here active you want to give an colour in bold*/
+ul li.active a{
+    background-color:#ff7200;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 140px;
+    height: auto;
+}
+/*iska help se hmara website me dono side se spacing aa jati ha aur website attractive dikhta ha*/
+.main{
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background:#ff7200;
+    border: 2px solid #fff;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+/*.srch:focus{
+    outline: none;
+}
+
+
+/* dot(.) is represented by class
+.title{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color:#fff;
+    font-size: 70px;
+}
+.button{
+    position: absolute;
+    top:63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid 
+    #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color:#fff;
+    color: #000;
+}*/
+/* .abt:hover tak learn more ko acvha dikhana ke liya hua ha
+.about{
+    position: absolute;
+    transform: translate(30%,30%);
+}
+
+.abt{
+    display: block;/*starting 3 used hota ha kisi bhi statement ko centre me lana me
+    width: 12%;
+    margin: 15px auto;
+    border: 3px solid #ff7200;
+    padding: 10px 30px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.abt:hover{
+    background-color:#000;
+    color: #ff7200;
+}*/
